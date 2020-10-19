@@ -2,9 +2,7 @@ int fattoriale(int numero)
 {
   int calcolo=1;
   int k=1;
-  do
-  {
+  for(k=1;k<=numero;k++)
     calcolo=calcolo*k;
-  }while(k<=numero);
   return calcolo;
 }
