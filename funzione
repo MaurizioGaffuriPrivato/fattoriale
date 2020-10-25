@@ -1,7 +1,10 @@
-double fattoriale(double numero)
+long long fattoriale(long long numero)
 {
-  if(numero==0) 
-         return 1;
+  if(numero<0)
+         return -1;
   else
-         return numero*fattoriale(numero-1);
+         if(numero==0) 
+                return 1;
+         else
+                return numero*fattoriale(numero-1);
 }
