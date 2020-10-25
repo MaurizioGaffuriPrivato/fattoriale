@@ -1,8 +1,7 @@
 int fattoriale(int numero)
 {
-  int calcolo=1;
-  int k=1;
-  for(k=1;k<=numero;k++)
-    calcolo=calcolo*k;
-  return calcolo;
+  if(numero==0) 
+         return 1;
+  else
+         return numero*fattoriale(numero-1);
 }
