@@ -1,4 +1,4 @@
-int fattoriale(int numero)
+double fattoriale(double numero)
 {
   if(numero==0) 
          return 1;
