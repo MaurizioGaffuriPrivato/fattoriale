@@ -1,5 +1,6 @@
 long long fattoriale(long long numero)
 {
+  double banana;
   if(numero<0)
          return -1;
   else
